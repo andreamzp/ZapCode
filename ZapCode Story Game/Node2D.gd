@@ -7,9 +7,8 @@ func _ready():
 	pass
 
 func _on_Button_pressed():
-	pass # Replace with function body.
 
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
+	get_tree().change_scene
+	pass
 #func _process(delta):
 #	pass
