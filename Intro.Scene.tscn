@@ -23,3 +23,5 @@ margin_right = 389.0
 margin_bottom = 412.0
 text = "Start Game"
 script = ExtResource( 2 )
+
+[connection signal="pressed" from="Panel/Button" to="." method="_on_Button_pressed"]
